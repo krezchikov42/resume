@@ -15,24 +15,26 @@ export default class Resume extends React.Component {
                 </div>
             </div>
             <div className="row bg-secondary">
-                <div className="col-8">
+                <div className="col-6 offset-2">
                     <div className="card bg-light my-3">
-                        <div className="card-header">Header</div>
+                        <div className="card-header">About Me</div>
                         <div className="card-body">
-                            <h5 className="card-title">Light card title</h5>
-                            <p className="card-text">Some quick example text to build on the card title and make up the
-                                bulk of the card's content.</p>
+                            <p className="card-text">Hi there! I'm Konstantin Rezchikov, a computer engineering and computer science student at Northeastern University.
+                                I've always loved the fact that I can bring someone's thoughts to life by typing a few lines of code. I'm excited by entrepreneurship and making products to change the world..</p>
                         </div>
                     </div>
 
                 </div>
-                <div className="col-4">
+                <div className="col-2">
                     <div className="card bg-light my-3">
-                        <div className="card-header">Header</div>
+                        <div className="card-header">Contact me</div>
                         <div className="card-body">
-                            <h5 className="card-title">Light card title</h5>
-                            <p className="card-text">Some quick example text to build on the card title and make up the
-                                bulk of the card's content.</p>
+                            <p className="card-text">
+                                <i className="fas fa-map-marked"></i> Boston, Massachussets
+                            </p>
+                            <p className="card-text">
+                                <i className="fas fa-envelope"></i> rezchikov.k@husky.neu.edu
+                            </p>
                         </div>
                     </div>
                 </div>
