@@ -20,7 +20,7 @@ export default class Resume extends React.Component {
                 "Automated data uploading from robot to web portal using Django and AWS",
                 "Converted API that increased GPS accuracy from Java to Python to fit in with current codebase"]}
         return <div className="container-fluid">
-            <div className="row">
+            <div className="row header">
                 <div className="col-3 offset-2">
                     <img  id="resume-photo" src={resume_photo} alt="Konstantin Rezchikov"></img>
                 </div>
@@ -30,7 +30,7 @@ export default class Resume extends React.Component {
                     <h5>Add links here</h5>
                 </div>
             </div>
-            <div className="row bg-secondary useful-row">
+            <div className="row body">
                 <div className="col-6 offset-2">
                     <div className="card bg-light my-3">
                         <div className="card-header">About Me</div>
