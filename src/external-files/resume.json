@@ -1,0 +1,25 @@
+{
+  "company_many": [
+    {"job_title": "Full Stack Web Developer",
+    "company": "Railpod Inc",
+    "year": "Jan. 2019 - Aug. 2019",
+    "bullets": ["Worked with the executive team to create major portions of the product",
+      "Created complex data visualization tools for track data using React that sped up the data analysis process by over 50%",
+      "Automated data uploading from robot to web portal using Django and AWS",
+      "Converted API that increased GPS accuracy from Java to Python to fit in with current codebase"]},
+    {"job_title": "Cross Platform Mobile Developer",
+    "company":  "Skillz Inc",
+      "year": "May 2018 - Aug. 2018",
+    "bullets":  ["Developed cross-platform features with React Native, Java, and Objective C",
+    "Integrated open-source React Native components into the product",
+    "Communicated with multiple teams to build components from design to production",
+    "Tested components to make sure they work under all possible conditions"]},
+    {
+      "job_title": "Computer Science Teaching Assistant",
+      "company": "Northeastern University",
+      "year": " Jan. 2017 - Current",
+      "bullets": ["Tutored students to understand computer science fundamentals through Racket",
+      "Graded code to check for design, cleanliness, and functionality"]
+    }
+  ]
+}

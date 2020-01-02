@@ -2,6 +2,8 @@ import React from "react";
 import ProgressBar from "../componenets/ProgressBar"
 import Company from "../componenets/Company";
 import resume_photo from "../external-files/me.png"
+import my_data from '../external-files/resume.json';
+
 
 export default class Resume extends React.Component {
 
@@ -42,7 +44,7 @@ export default class Resume extends React.Component {
                 </div>
             </div>
             <div className="row body">
-                <div className="col-6 offset-2">
+                <div className="col-8 offset-1">
                     <div className="card bg-light my-3">
                         <div className="card-header">About Me</div>
                         <div className="card-body">
@@ -53,7 +55,8 @@ export default class Resume extends React.Component {
                     <div className="card bg-light my-3">
                         <div className="card-header">Work Experience</div>
                         <div className="card-body">
-                                <Company {...company}></Company>
+                            {my_data.company_many.map(company =>
+                                <Company {...company}></Company>)}
                         </div>
                     </div>
 
