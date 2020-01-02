@@ -1,6 +1,7 @@
 import React from "react";
 import ProgressBar from "../componenets/ProgressBar"
 import Company from "../componenets/Company";
+import resume_photo from "../external-files/me.png"
 
 export default class Resume extends React.Component {
 
@@ -20,8 +21,8 @@ export default class Resume extends React.Component {
                 "Converted API that increased GPS accuracy from Java to Python to fit in with current codebase"]}
         return <div className="container-fluid">
             <div className="row">
-                <div className="col-2 offset-2">
-                    Profile picture will go here
+                <div className="col-3 offset-2">
+                    <img  id="resume-photo" src={resume_photo} alt="Konstantin Rezchikov"></img>
                 </div>
                 <div className="col-2">
                     <h3>Konstantin Rezchikov</h3>
