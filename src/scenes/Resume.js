@@ -29,7 +29,7 @@ export default class Resume extends React.Component {
                     <h5>Add links here</h5>
                 </div>
             </div>
-            <div className="row bg-secondary">
+            <div className="row bg-secondary useful-row">
                 <div className="col-6 offset-2">
                     <div className="card bg-light my-3">
                         <div className="card-header">About Me</div>

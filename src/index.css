@@ -12,7 +12,7 @@ code {
     monospace;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .card-header {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   color: #778492;
@@ -22,3 +22,17 @@ h1, h2, h3, h4, h5, h6 {
   color: #999;
   font-weight: normal;
 }
+
+.useful-row{
+  height: 100%;
+}
+
+.container-fluid {
+  height: 100vh;
+}
+
+.card-header {
+  color: #545e69;
+  font-size: 24px;
+}
+
