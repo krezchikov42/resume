@@ -21,5 +21,36 @@
       "bullets": ["Tutored students to understand computer science fundamentals through Racket",
       "Graded code to check for design, cleanliness, and functionality"]
     }
+  ],
+  "skill_many": [
+    {
+      "skill": "React",
+      "skill_level": 3
+    },
+    {
+      "skill": "Django",
+      "skill_level": 3
+    },
+    {
+      "skill": "Javascrpt",
+      "skill_level": 3
+    },
+    {
+      "skill": "Java",
+      "skill_level": 2
+    },
+    {
+      "skill": "React Native",
+      "skill_level": 2
+    },
+    {
+      "skill": "SQL",
+      "skill_level": 2
+    },
+    {
+      "skill": "R",
+      "skill_level": 1
+    }
+
   ]
 }

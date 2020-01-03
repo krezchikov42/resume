@@ -76,6 +76,13 @@ h1, h2, h3, h4, h5, h6, .card-header {
   padding-left: 10px;
 }
 
+.level {
+  color: #ccd1d6;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Lato", arial, sans-serif;
+  float: right;
+}
 
 
 

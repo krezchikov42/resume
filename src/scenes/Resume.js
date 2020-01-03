@@ -14,13 +14,6 @@ export default class Resume extends React.Component {
     }
 
     render() {
-        let company = {job_title: 'Full Stack Web Developer',
-            company: 'Railpod Inc',
-            year: 'Jan. 2019 - Aug. 2019',
-            bullets: ['Worked with the executive team to create major portions of the product',
-                "Created complex data visualization tools for track data using React that sped up the data analysis process by over 50%",
-                "Automated data uploading from robot to web portal using Django and AWS",
-                "Converted API that increased GPS accuracy from Java to Python to fit in with current codebase"]}
         return <div className="container-fluid">
             <div className="row header">
                 <div className="col-3 offset-2">
@@ -76,24 +69,8 @@ export default class Resume extends React.Component {
                     <div className="card bg-light my-3">
                         <div className="card-header">Contact me</div>
                         <div className="card-body">
-                            <ProgressBar skill="React" skill_level={70}></ProgressBar>
-                            React
-                            <div className="float-right">
-                                Intermediate
-                            </div>
-                            <div className="progress">
-                                <div className="progress-bar bg-success" role="progressbar" style={{width: '25%'}}
-                                     aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            React
-                            <div className="progress">
-                                <div className="progress-bar bg-success" role="progressbar" style={{width: '25%'}}
-                                     aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <p className="card-text">
-                                <i className="fas fa-envelope"></i> rezchikov.k@husky.neu.edu
-                            </p>
-                        </div>
+                            {my_data.skill_many.map(skill => <ProgressBar {...skill}> </ProgressBar>)}
+                         </div>
                     </div>
                 </div>
             </div>
