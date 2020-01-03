@@ -9,8 +9,6 @@ export default class Resume extends React.Component {
 
     constructor() {
         super();
-
-        this.skills = {react: 4, }
     }
 
     render() {
