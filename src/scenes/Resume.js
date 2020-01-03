@@ -41,7 +41,7 @@ export default class Resume extends React.Component {
                             <div className="card-header">About Me</div>
                             <div className="card-body">
                                 <p className="card-text">Hi there! I'm Konstantin Rezchikov, a computer engineering and computer science student at Northeastern University.
-                                    I've always loved the fact that I can bring someone's thoughts to life by typing a few lines of code. I'm excited by entrepreneurship and making products to change the world..</p>
+                                    I've always loved the fact that I can bring someone's thoughts to life by typing a few lines of code. I'm excited by entrepreneurship and making products to change the world.</p>
                             </div>
                         </div>
                         <div className="card bg-light my-3">
