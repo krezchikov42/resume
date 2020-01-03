@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types';
 
 export default class ProgressBar extends React.Component {
     render() {
@@ -20,7 +21,7 @@ export default class ProgressBar extends React.Component {
     //skillLevel should be between 1 and 4
     getSkillDescriptionText(){
         let ret_value = ''
-        if (this.props.skill_level == 1) {
+        if (this.props.skill_level === 1) {
             ret_value = 'Beginner'
         }
         else if (this.props.skill_level <= 3) {
@@ -42,4 +43,9 @@ export default class ProgressBar extends React.Component {
         let skill_percent = skill_percentage_map[this.props.skill_level]
         return skill_percent
     }
+}
+
+ProgressBar.propTypes = {
+    skill: PropTypes.string.isRequired,
+    skill_level: PropTypes.number.isRequired
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types';
 
 export default class Company extends React.Component {
     render() {
@@ -12,3 +13,10 @@ export default class Company extends React.Component {
         </div>
     }
 }
+
+Company.propTypes = {
+    job_title: PropTypes.string.isRequired,
+    company: PropTypes.string.isRequired,
+    year: PropTypes.string.isRequired
+}
+

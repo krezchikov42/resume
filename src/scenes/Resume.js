@@ -19,9 +19,9 @@ export default class Resume extends React.Component {
                 <div className="col-8 col-lg-3 offset-2">
                     <img  id="resume-photo" src={resume_photo} alt="Konstantin Rezchikov"></img>
                 </div>
-                <div className="col-4 offset-2 offset-lg-0">
+                <div className="col-8 offset-2 col-lg-4 offset-lg-0">
                     <h1 className="name">Konstantin Rezchikov</h1>
-                    <h2 className="description">Software Engineer</h2>
+                    <h2 className="description">Software Engineer | Web Developer</h2>
                     <ul className="list-inline">
                         <li>
                             <a href="https://www.linkedin.com/in/konstantin-rezchikov/"  target="_blank">
