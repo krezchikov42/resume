@@ -1,3 +1,5 @@
+This is my resume website. I wanted to show that I had experience with React, so I decided to make my own website with React.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
