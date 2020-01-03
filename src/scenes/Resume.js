@@ -38,7 +38,7 @@ export default class Resume extends React.Component {
             </div>
             <div>
                 <div className="row body">
-                    <div className="col-12 col-lg-8 offset-lg-1">
+                    <div className="col-12 col-lg-7 offset-lg-1">
                         <div className="card bg-light my-3">
                             <div className="card-header">About Me</div>
                             <div className="card-body">
@@ -55,7 +55,7 @@ export default class Resume extends React.Component {
                         </div>
 
                     </div>
-                    <div className="col-12 col-lg-2">
+                    <div className="col-12 col-lg-3">
                         <div className="card bg-light my-3">
                             <div className="card-header">Contact me</div>
                             <div className="card-body">
@@ -68,7 +68,7 @@ export default class Resume extends React.Component {
                             </div>
                         </div>
                         <div className="card bg-light my-3">
-                            <div className="card-header">Contact me</div>
+                            <div className="card-header">Skills</div>
                             <div className="card-body">
                                 {my_data.skill_many.map(skill => <ProgressBar {...skill}> </ProgressBar>)}
                             </div>

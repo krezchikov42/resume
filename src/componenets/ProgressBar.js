@@ -6,11 +6,13 @@ export default class ProgressBar extends React.Component {
         let skill_description = this.getSkillDescriptionText()
         let skill_level = this.getSkillLevel()
 
-        return <div>
-            {this.props.skill}
-            <div className="level">
+        return <div className="my-3">
+            <h3>            {this.props.skill}
+                <span className="level">
                 {skill_description}
-            </div>
+            </span>
+            </h3>
+
             <div className="progress">
                 <div className="progress-bar bg-success" role="progressbar" style={{width: `${skill_level}%`}}
                      aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
